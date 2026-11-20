@@ -1,0 +1,162 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iliamim.github.io/Task-1/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Документ: страницы 25–30",
+  "description": "Задание по предмету «Методика создания электронной публикации документа»",
+  "thumbnail": {
+    "@id": "https://iliamim.github.io/Task-1/25.jpg",
+    "format": "image/jpeg"
+  },
+  "metadata": [
+    {
+      "label": "Репозиторий",
+      "value": "https://github.com/iliamim/Task-1"
+    },
+    {
+      "label": "Год создания",
+      "value": "2026"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://iliamim.github.io/Task-1/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Последовательность страниц",
+      "canvases": [
+        {
+          "@id": "https://iliamim.github.io/Task-1/canvas/25",
+          "@type": "sc:Canvas",
+          "label": "стр. 25",
+          "width": 1200,
+          "height": 1600,
+          "images": [
+            {
+              "@id": "https://iliamim.github.io/Task-1/annotation/25",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iliamim.github.io/Task-1/25.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 1200,
+                "height": 1600
+              },
+              "on": "https://iliamim.github.io/Task-1/canvas/25"
+            }
+          ]
+        },
+        {
+          "@id": "https://iliamim.github.io/Task-1/canvas/26",
+          "@type": "sc:Canvas",
+          "label": "стр. 26",
+          "width": 1200,
+          "height": 1600,
+          "images": [
+            {
+              "@id": "https://iliamim.github.io/Task-1/annotation/26",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iliamim.github.io/Task-1/26.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 1200,
+                "height": 1600
+              },
+              "on": "https://iliamim.github.io/Task-1/canvas/26"
+            }
+          ]
+        },
+        {
+          "@id": "https://iliamim.github.io/Task-1/canvas/27",
+          "@type": "sc:Canvas",
+          "label": "стр. 27",
+          "width": 1200,
+          "height": 1600,
+          "images": [
+            {
+              "@id": "https://iliamim.github.io/Task-1/annotation/27",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iliamim.github.io/Task-1/27.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 1200,
+                "height": 1600
+              },
+              "on": "https://iliamim.github.io/Task-1/canvas/27"
+            }
+          ]
+        },
+        {
+          "@id": "https://iliamim.github.io/Task-1/canvas/28",
+          "@type": "sc:Canvas",
+          "label": "стр. 28",
+          "width": 1200,
+          "height": 1600,
+          "images": [
+            {
+              "@id": "https://iliamim.github.io/Task-1/annotation/28",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iliamim.github.io/Task-1/28.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 1200,
+                "height": 1600
+              },
+              "on": "https://iliamim.github.io/Task-1/canvas/28"
+            }
+          ]
+        },
+        {
+          "@id": "https://iliamim.github.io/Task-1/canvas/29",
+          "@type": "sc:Canvas",
+          "label": "стр. 29",
+          "width": 1200,
+          "height": 1600,
+          "images": [
+            {
+              "@id": "https://iliamim.github.io/Task-1/annotation/29",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iliamim.github.io/Task-1/29.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 1200,
+                "height": 1600
+              },
+              "on": "https://iliamim.github.io/Task-1/canvas/29"
+            }
+          ]
+        },
+        {
+          "@id": "https://iliamim.github.io/Task-1/canvas/30",
+          "@type": "sc:Canvas",
+          "label": "стр. 30",
+          "width": 1200,
+          "height": 1600,
+          "images": [
+            {
+              "@id": "https://iliamim.github.io/Task-1/annotation/30",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iliamim.github.io/Task-1/30.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 1200,
+                "height": 1600
+              },
+              "on": "https://iliamim.github.io/Task-1/canvas/30"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
